@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
  
 /**
- * ����
+ * 测试
  * 
  * @author Howe Hsiang
  *
@@ -19,10 +19,10 @@ public class TestController {
  
     @RequestMapping("/hello")
     public ModelAndView showMessage(@RequestParam(value = "name", required = false, defaultValue = "Howe Hsiang") String name) {
- 
-    	//ָ����ͼ
+
+        //指定视图
         ModelAndView mv = new ModelAndView("hellospring");
-        //����ͼ�������Ҫչʾ��ʹ�õ����ݣ�����ҳ����ʹ��
+        //向视图中添加所要展示或使用的内容，将在页面中使用
         mv.addObject("message", message);
         mv.addObject("name", name);
         return mv;
