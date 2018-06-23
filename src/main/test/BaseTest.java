@@ -6,6 +6,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * 测试基类
+ *
+ * @author Howe Hsiang
+ *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:springContext.xml"})
