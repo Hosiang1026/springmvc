@@ -5,7 +5,7 @@
   <artifactId>springmvc</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springmvcSpringmvc Maven Webapp</name>
+  <name>Springmvc Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   <properties>
@@ -54,6 +54,6 @@
               </configuration>
           </plugin>
       </plugins>
-      <finalName>springMVC</finalName>
+      <finalName>springmvc</finalName>
   </build>
 </project>
